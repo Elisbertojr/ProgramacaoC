@@ -1,1 +1,13 @@
-
+#include <stdio.h>
+ 
+int main() {
+    int idade = 25;
+    float altura = 1.75;
+    double saldoBancario = 12345.67;
+    char inicial = 'A';
+    char nome[20] = "Bruno";
+ 
+    printf ("Digite a sua idade:");
+    scanf ("%d", &idade);
+ 
+    return 0;
